@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navBarcontainer">
+      <div>HighScore:<span id="highscore">0</span></div>
+      <div>Score: <span id="score">0</span></div>
+      <div>Timer:<span id="countDownTimer">120</span></div>
+      <div onclick="reset()">Restart</div>
+      <div>Game Level:
+        <select id="gamelevel" onchange="difficultyChanged()">
+          <option value="1">Easy</option>
+          <option value="2">Medium</option>
+          <option value="3">Hard</option>
+        </select>
+      </div>
+    </div>
+    <div id="gameBoard">
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

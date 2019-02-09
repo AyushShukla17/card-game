@@ -1,0 +1,42 @@
+.navBarcontainer {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    font-size: 0px;
+  }
+  .navBarcontainer > div{
+      width:20%;
+      font-size:16px;
+      display:inline-block;
+      vertical-align: top;
+      color:#ffffff;
+      padding: 14px 16px;
+      box-sizing: border-box;
+      cursor: pointer;
+  }
+  
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin:20px auto;
+  }
+li {
+      height:100px;
+      width: 100px;
+      background-color: #D3D3D3;
+      margin:1%;
+      outline: none;
+}
+
+li.special {
+    background-color:#8DB654;    ;
+}
+li {
+    display: inline-block;
+}
+
+.navBarcontainer > div > span {
+    padding:10px;
+}
+
